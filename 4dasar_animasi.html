@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="id" xml:lang="id" xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" /><link rel="stylesheet" type="text/css" href="content.css" /><link rel="stylesheet" type="text/css" href="nav.css" /><title>4.	Dasar Animasi </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="emptyHeader"></div><div id="siteNav">
+<ul>
+<li><a href="index.html" class="daddy main-node">Home</a></li><li><a href="1_pembelajaran_interaktif.html" class="no-ch">1. Pembelajaran Interaktif</a></li>
+<li><a href="2_pengenalan_macromedia_flash.html" class="daddy">2. Pengenalan Macromedia Flash</a><ul class="other-section">
+<li><a href="21_menu_bar.html" class="no-ch">2.1	 Menu Bar</a></li>
+<li><a href="22_panel_color.html" class="no-ch">2.2	 Panel color</a></li>
+<li><a href="23__toolbox.html" class="no-ch">2.3  Toolbox</a></li>
+<li><a href="24_stage.html" class="no-ch">2.4	 Stage</a></li>
+<li><a href="25_timeline.html" class="no-ch">2.5	 Timeline</a></li>
+<li><a href="26_action_frame.html" class="no-ch">2.6	 Action Frame</a></li>
+<li><a href="27_properties.html" class="no-ch">2.7	 Properties</a></li>
+</ul>
+</li>
+<li><a href="3konsep_shape_dan_symbol_pada_macromedia_flash.html" class="daddy">3.	Konsep Shape dan Symbol pada Macromedia Flash</a><ul class="other-section">
+<li><a href="31_manipulasi_obyek_shape.html" class="no-ch">3.1	 Manipulasi obyek shape</a></li>
+<li><a href="32_manipulasi_symbol.html" class="no-ch">3.2	 Manipulasi symbol</a></li>
+</ul>
+</li>
+<li id="active"><a href="4dasar_animasi.html" class="active no-ch">4.	Dasar Animasi</a></li>
+</ul>
+</div>
+<div id='topPagination'><div class="pagination noprt"><a href="32_manipulasi_symbol.html" class="prev"><span>&laquo; </span>Sebelumnya</a></div>
+</div><div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.	Dasar Animasi</h1></div>
+<div class="activityIdevice" id="id13">
+<div class="iDevice emphasis1">
+<img alt=""      class="iDevice_icon" src="icon_activity.gif"/>
+<h2 class="iDeviceTitle"></h2>
+<div class="iDevice_inner">
+<div id="ta13_96_2" class="block" style="display:block;position:relative"><p style="text-align: justify;">Animasi merupakan satu fungsi utama dari Flash. Animasi, dan cara pembuatannya tidak sesederhana menggerakkan sesuatu dari titik A ke titik B. Ada banyak faktor yang harus dipertimbangkan untuk membuat animasi yang efektif dan efisien.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Animasi pada awalnya berupa kumpulan atau potongan gambar yang ditampilkan bergantian secara cepat. Karena keterbatasan mata kita, kita tidak bisa membedakan setiap gambar yang satu dengan yang lainya dan yang tampak dalam mata kita adalah sebuah gerakan yang disebut animasi.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Dalam film, setiap bagian gambar itu disebut <em>frame</em>. <em>Frame</em> <em>frame</em> tersebut berganti dengan kecepatan tertentu sehingga tidak nampak oleh mata manusia. Kecepatan banyaknya <em>frame</em> yang ditampilkan dihitung dalam satuan <em>frame</em> per detik(fps = <em>frame</em> per second). Film yang kita saksikan di bioskop menampilkan 24 <em>frame</em> per detik.&nbsp; Videotape dan televisi menampilkan 30 <em>frame</em> per detik. Semakin tinggi kecepatan dari <em>frame</em> maka gambar yang dihasilkan akan semakin halus tetapi kerugiannya adalah memerlukan jumlah <em>frame</em> yang lebih banyak dengan waktu yang sama.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Didalam flash <em>frame</em>-<em>frame</em> dari animasi diletakkan dalam bagian <em>Timeline</em>. Ditempat tersebut kita dapat mengatur <em>frame</em> yang digunakan untuk animasi. didalam <em>Timeline</em> terdapat <em>Timeline</em> header yaitu bagian yang terdapat angka 1, 5, 10, dst itu berguna untuk menunjukkan letak <em>frame</em>. Jadi jika kita membuat sebuah animasi maka gerakan dari gambar akan dimulai dari <em>frame</em> ke satu, dilanjutkan kedua dan seterusnya hingga animasi berakhir.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="image036.png" /></p>
+<p style="text-align: justify;"><em>Playhead </em>yang selanjutnya kita sebut sebagai penunjuk <em>frame</em> yaitu garis vertikal berwarna merah berguna untuk menunjukkan posisi dari <em>frame</em> yang ditampilkan pada <em>stage</em>. <em>Playhead </em>dapat dipindah ke <em>frame</em> yang kita inginkan cukup dengan mengklik <em>frame</em> tersebut.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Di dalam flash ada dua cara membuat animasi, yaitu animasi frame by frame dan animasi tweening. Pada animasi frame by frame, disetiap frame diberikan keyframe dan dilakukan perubahan terhadap obyek yang ada pada stage. Kerugian dalam pembuatan animasi <em>frame</em> <em>by</em> <em>frame</em> adalah kita harus mengisikan gambar satu persatu pada tiap tiap <em>frame</em> sehingga membutuhkan waktu yang lama.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="image037.png" /></p>
+<p style="text-align: justify;"><em>KeyFrame</em> adalah <em>frame</em> yang berperan sebagai titik referensi, yang biasanya menggambarkan momen waktu utama. Sebagai contoh jika ingin membuat animasi lari jarak pendek 100 meter, maka kita bisa memiliki <em>Key</em> <em>frame</em> berikut :</p>
+<p style="text-align: justify;"><em>Key</em> <em>frame</em> 1 : pelari berdiri</p>
+<p style="text-align: justify;"><em>Key</em> <em>frame</em> 2 : pelari menempatkan posisi kakinya</p>
+<p style="text-align: justify;"><em>Key</em> <em>frame</em> 3 : pelari mengambil posisi siap</p>
+<p style="text-align: justify;"><em>Key</em> <em>frame</em> 4 : pelari melewati garis start</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Pada animasi tweening prinsip dasarnya adalah sebagai berikut :</p>
+<ol start="1">
+<li style="text-align: justify;">Tentukan frame awal untuk animasi, berikan keyframe pada frame awal ini</li>
+<li style="text-align: justify;">Tentukan frame akhir untuk animasi, berikan keyframe pada frame akhir</li>
+<li style="text-align: justify;">Lakukan perubahan terhadap obyek di frame akhir (posisi, ukuran, bentuk ataupun warna)</li>
+<li style="text-align: justify;">Berikan tweening diantara frame awal dan akhir</li>
+</ol>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="image038.png" height="92" width="528" /></p></div></div>
+</div>
+</div>
+<div id='bottomPagination'><div class="pagination noprt"><a href="32_manipulasi_symbol.html" class="prev"><span>&laquo; </span>Sebelumnya</a></div>
+</div></div>
+</div>
+</body></html>
